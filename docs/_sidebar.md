@@ -5,6 +5,10 @@
 
 - SDK
     - [Core](core.md)
+        - [HDK](core/hdk_cone.md)
+        - [Power](core/power.md)
+        - [Mapping](core/mapping.md)
+        - [Settings](core/settings.md)
     - [Utils](utils.md)
     - [Barcode](barcode.md)
 
