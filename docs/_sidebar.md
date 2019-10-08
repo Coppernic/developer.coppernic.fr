@@ -2,6 +2,7 @@
     - [Quick start](quickstart.md)
     - [Build](build.md)
     - [F-Droid](fdroid.md)
+    - [OS](os.md)
 
 - SDK
     - [Core](core.md)
@@ -9,18 +10,22 @@
         - [Power](core/power.md)
         - [Mapping](core/mapping.md)
         - [Settings](core/settings.md)
-    - [Utils](utils.md)
-    - [Barcode](barcode.md)
+    - Barcode
+        - [Intent API](barcode/barcode_scan.md)
+        - [Lib API](barcode/barcode_sample.md)
+    - [Utils](utils/utils.md)
+        - [Splash screen](utils/splash.md)
+        - [Interactors](utils/interactors.md)
 
 - Products
-    - C-One & C-One²
-        - [HF ASK](ask.md)
-        - [LF Agrident](agrident.md)
-        - [HF iClass/LF Prox](hid.md)
-    - C-One e-ID & C-One² e-ID
-        - [PCSC](pcsc.md)
-        - [Finger print](fingerprint.md)
-        - [OCR](ocr.md)
-    - C-five
-        - [Barcode](cfive.md)
-    - [ID Platform](idplatform.md)
+    - [C-One & C-One²](products/cone.md)
+        - [HF ASK](products/ask.md)
+        - [LF Agrident](products/agrident.md)
+        - [HF iClass/LF Prox](products/hid.md)
+        - [Legic](products/legic.md)
+    - [C-One e-ID & C-One² e-ID](products/cone-eid.md)
+        - [PCSC](products/pcsc.md)
+        - [Finger print](products/fingerprint.md)
+        - [OCR](products/ocr.md)
+    - [C-five](products/cfive.md)
+    - [ID Platform](products/idplatform.md)

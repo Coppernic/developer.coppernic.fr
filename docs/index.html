@@ -17,11 +17,34 @@
         alias: {
         '/.*/_navbar.md': '/_navbar.md'
       },
+      coverpage: true,
       loadSidebar: true,
-      name: 'CopperDoc',
-      repo: ''
+      name: 'Documentation',
+      repo: 'https://github.com/Coppernic/coppernic.github.io',
+      search: {
+            noData: {
+              '/': 'No results!'
+            },
+            paths: 'auto',
+            placeholder: {
+              '/': 'Search'
+          }
+      },
+      themeColor: '#FF2500',
+      notFoundPage: {
+          '/': '_404.md'
+      },
+      remoteMarkdown: {
+        tag: 'remoteMarkdownUrl',
+      },
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify-remote-markdown/dist/docsify-remote-markdown.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-groovy.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-kotlin.min.js"></script>
 </body>
 </html>
