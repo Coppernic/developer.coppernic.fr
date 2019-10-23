@@ -2,7 +2,7 @@
 
 # Documentation
 
-> Coppernic's SDk documentation website
+> Coppernic's SDK documentation website
 
 [GitHub](https://github.com/Coppernic)
 [Getting Started](#documentation)
