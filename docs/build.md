@@ -21,7 +21,7 @@ repositories {
 Dependencies
 ------------
 
-You can then add Coppernic's dependencies in your Build
+You can then add Coppernic's dependencies in your build :
 
 ```groovy
 dependencies {
