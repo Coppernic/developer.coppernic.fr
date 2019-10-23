@@ -7,9 +7,9 @@ We are not supporting other build system such as Xamarin, Cordova, Flutter or ol
 Repository
 ----------
 
-Coppernic's lib are stored in [artifactory ](https://artifactory.coppernic.fr/artifactory/webapp/#/home)
+Coppernic's libs are stored in [artifactory ](https://artifactory.coppernic.fr/artifactory/webapp/#/home).
 
-On your `build.gradle` file add a repository :
+On your `build.gradle` file add a repository:
 
 ```groovy
 repositories {
@@ -21,7 +21,7 @@ repositories {
 Dependencies
 ------------
 
-You can then add Coppernic's dependencies in your build :
+You can then add Coppernic's dependencies in your build:
 
 ```groovy
 dependencies {
