@@ -1,60 +1,60 @@
 OS
 ==
 
-All OS packages can be found on [copperpro website](https://copperpro.coppernic.fr/copperpro-downloads/)
+All OS packages can be found on [copperpro website](https://copperpro.coppernic.fr/copperpro-downloads/).
 
-Here are procedures for upating OS on Coppernic’s devices
+Here below are procedures for upating OS on Coppernic’s devices.
 
 ### Prerequisites
 
-* You shall have adb installed on your computer.
-* You should be familiar with adb and how to install OS on Android platform
+* You shall have adb installed on your computer,
+* You should be familiar with adb and how to install OS on Android platform.
 
 C-five
 ------
 
-- Copy os update file on a SD card
-- Insert the SD card to the device
-- Press power and vol + button and place the battery at the same tile
-- Hold power and vol + button until you get in the recovery menu
-- Press Volume Up / Down to select “sd update” then press Power Button
-- Press Volume Up / Down to select the correct update file
-- Press Power Button to execute Update
-- Waiting for “Install from sdcard complete” appear.
-- Press power button to reboot device
+- Copy the OS update .zip file on a SD card,
+- Insert the SD card into the device,
+- Press POWER & Vol. UP buttons and place the battery at the same tile,
+- Hold POWER & Vol. UP buttons until getting in the Recovery menu,
+- Press Vol. UP / DOWN to select “sd update” then press POWER button,
+- Press Vol. UP / DOWN button to select “sd update” then press POWER button,
+- Press Vol. UP / DOWN to select the correct update file,
+- Press POWER button to execute the update,
 
+- Waiting for “Install from sdcard complete” appearance,
+- Press POWER button to reboot the device.
 C-One
 -----
 
-- Copy “update….zip” file to a SD card
-- Insert the SD card to the device
-- Press Power button and select “Reset”
-- Hold P1 & Volume up button until you get in the recovery menu
-- Press Volume Up / Down to select “sd update” then press Power Button
-- Press Volume Up / Down to select “update…zip” file
-- Press Power Button to execute Update
-- Waiting for “Install from sdcard complete” appear.
-- Press HW Reset button.
+- Copy the OS update .zip file on a SD card,
+- Insert the SD card into the device,
+- Press POWER button and select “Reset”,
+- Hold P1 & Vol. UP buttons until getting in the Recovery menu,
+- Press Vol. UP / DOWN button to select the correct update file,
+- Press POWER button to execute the update,
+- Waiting for “Install from sdcard complete” appearance,
+- Press HW Reset button (under the SIM trapdoor).
 
 ID Platform
 -----------
 
 ### OTA
 
-This method uses OTA (Over The Air) package.
+This method uses OTA (Over The Air) package:
 
-* Get OTA package from copperpro website
-* Reboot IdPlatform on recovery mode : `adb reboot recovery`
-* On recovery page, select **adb update**
-* On your computer, run `adb sideload [PACKAGE_FILE]` (Replace [PACKAGE_FILE] by the name of your package)
-* When update is complete, reboot device
+* Get OTA package from [copperpro website](https://copperpro.coppernic.fr/copperpro-downloads/),
+* Reboot ID Platform on Recovery mode: `adb reboot recovery`,
+* On Recovery page select **adb update**,
+* On your computer run `adb sideload [PACKAGE_FILE]` (Replace [PACKAGE_FILE] by the name of your package),
+* When update is complete, reboot the device.
 
 ### Fastboot
 
-If previous method fails, try this one. It uses fastboot package.
+If previous method fails, try this one, it uses fastboot package:
 
-* Get fastboot package from copperpro website
-* Unzip package and go in unzipped folder
-* Reboot IdPlatform on fastboot mode : `adb reboot fastboot`
-* On your computer, run `flash.sh` script
+* Get fastboot package from [copperpro website](https://copperpro.coppernic.fr/copperpro-downloads/),
+* Unzip package and go in unzipped folder,
+* Reboot ID Platform on fastboot mode: `adb reboot fastboot`,
+* On your computer, run `flash.sh` script.
     * If you are a Windows user, then feel free to update the flash script.
