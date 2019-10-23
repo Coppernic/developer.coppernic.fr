@@ -1,7 +1,7 @@
 Getting started
 ===============
 
-On Coppernic's android products, a service is installed that allow user application to perform special tasks on device. On first generation
+On Coppernic's Android products, a service is installed that allow user application to perform special tasks on device. On first generation
 of Coppernic's products it is called `CpcSystemServices`, on second generation, it is called `CoreServices`.
 
 **First generation products**
@@ -18,8 +18,8 @@ of Coppernic's products it is called `CpcSystemServices`, on second generation, 
 
 If there is no `CpcSystemServices` or `CoreServices`, then Coppernic's samples will not work as expected.
 
-These applications are available on [F-Droid](fdroid.md)
+These applications are available on [F-Droid](fdroid.md).
 
 Once service is installed, [samples](https://github.com/Coppernic) can work.
 
-Now, let's see how to add Coppernic's lib on your [build](build.md).
+Now, let's see how to add Coppernic's libs on your [build](build.md).
