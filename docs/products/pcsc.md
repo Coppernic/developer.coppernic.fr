@@ -1,4 +1,4 @@
-PCSC
+PC/SC
 ====
 
 C-One² e-ID

@@ -3,7 +3,7 @@ Agrident
 
 ![](_images/agrident.jpg)
 
-C-One Agrident embeds a RFID HF reader (Agrident) especially designed for animal tracking applications.
+C-One Agrident embeds a RFID LF reader (Agrident) especially designed for animal tracking applications.
 
 For reader management, documentation and sample code can be found [here](https://github.com/Coppernic/AgridentWedgeSample).
 
